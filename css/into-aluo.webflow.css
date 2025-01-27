@@ -403,12 +403,13 @@
 }
 
 .section.hero {
+  z-index: -1;
   justify-content: flex-start;
   align-items: flex-start;
   height: 100vh;
   max-height: none;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
   position: fixed;
   inset: 0% auto auto 0%;
@@ -420,7 +421,7 @@
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 0;
 }
 
 .content {
